@@ -12,7 +12,11 @@
   }
 
   .hero p {
-    font-size: 1rem !important;
+    font-size: 1.5rem !important;
+  }
+
+  .hero li {
+    font-size: 1.2rem !important;
   }
 
   h3 {
@@ -21,13 +25,22 @@
 
   .hero {
     margin-top: 0rem !important;
+    padding: 0rem !important;
+  }
+
+  .sess{
+    text-align: left;
   }
 
 }
 
+.espaço{
+    padding-top: 0.5rem;
+}
+
 .hero {
     margin-top: 1rem;
-  }
+}
 
 
 html,body{
@@ -174,10 +187,31 @@ label{
     margin-bottom: 0.5rem;
 }
 
+.titulos{
+    margin-bottom: 1.5rem;
+}
+
+.sess{
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+  }
+
 .gradient-custom {
     background: #6a11cb;
     background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
     background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
-    height:83vh !important;
+    /* height:83vh !important; */
 }   
+
+.sobres{
+    max-width: 800px;
+    width: 100%;
+    background-color: transparent !important;
+    color: white;
+}
 
